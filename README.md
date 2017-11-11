@@ -45,12 +45,12 @@ This library was developed for personal use. As a development student I wanted t
 
 ## Supported Color Models
 
-- [RGB](https://en.wikipedia.org/wiki/RGB_color_model): Standard RGB. Values range between 0 and 1.
-- [XYZ](https://en.wikipedia.org/wiki/CIE_1931_color_space): One of the first mathematically defined color spaces. Values range between 0 and 0.95047, 1.0 and 1.08883 for X, Y and Z respectively. These three numbers together define the white point, which can be different depending on the chosen illuminant. The commonly used illuminant D65 was chosen for this project.
-- [CIELUV](https://en.wikipedia.org/wiki/CIELUV): A color space made for perceptual uniformity. L is lightness (0..100).
-- [CIELCH](https://en.wikipedia.org/wiki/CIELUV): A cylindrical representation of CIELUV. L is lightness (0..100), C (0..100) is chroma and H is hue (0..360).
-- [HSLuv](http://www.hsluv.org): A color space designed for perceptual uniformity based on human experiments. HSLuv extends CIELUV with a new saturation component that allows you to span all the available chroma as a neat percentage. H is hue (0..360), S is saturation (0..100) and L is lightness (0..100).
-- [HPLuv](http://www.hsluv.org): Based on HSLuv but without distorting the chroma. The result is a smooth color space but with only pastel colors.
+- [RGB](https://en.wikipedia.org/wiki/RGB_color_model): Standard RGB.
+- [XYZ](https://en.wikipedia.org/wiki/CIE_1931_color_space): One of the first mathematically defined color spaces.
+- [CIELUV](https://en.wikipedia.org/wiki/CIELUV): A color space made for perceptual uniformity.
+- [CIELCH](https://en.wikipedia.org/wiki/CIELUV): A cylindrical representation of CIELUV.
+- [HSLuv](http://www.hsluv.org): A color space designed for perceptual uniformity based on human experiments.
+- [HPLuv](http://www.hsluv.org): Based on HSLuv but without distorting the chroma.
 - Hexadecimal: A string representation of RGB.
 
 ## Extending
